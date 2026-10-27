@@ -1,17 +1,10 @@
-# perbaiki_code
+# Aplikasi Profil Pengguna
 
-A new Flutter project.
+Project ini bikin UI profil simpel pakai Flutter. Kodenya lagi di-fix pelan-pelan biar error-nya hilang, tampilannya rapi, dan komponennya bisa dipakai ulang (reusable).
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Progres Hari Ini: Tahap 1 (Benerin Error Dasar)
+Hari ini fokus benerin error syntax biar kodenya bisa di-run:
+- **Import Material:** Nambahin `import 'package:flutter/material.dart';` di paling atas biar widget-nya kebaca.
+- **Koma Ketinggalan:** Nambahin koma di item ketiga list `experiences` (`'Lead Developer - Aplikasi Sekurindo',`).
+- **Benerin Tipe Data:** Ganti angka `42` jadi string `'42'` di widget `StatItem` biar sesuai sama aturan class-nya.
+- **Hapus Kurung Lebih:** Ngehapus satu kurung tutup yang kelebihan di bagian bawah `MainApp` biar kodenya nggak berantakan.
