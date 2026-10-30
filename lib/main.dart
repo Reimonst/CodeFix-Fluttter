@@ -7,14 +7,11 @@ void main() {
 class MainApp extends StatelessWidget {
   MainApp({super.key});
 
-  final String userName = 'I Ketut Gunawan, S.Kom, M.T.I.';
-  final String role = 'Senior Backend Engineer & Dosen';
+  final String userName = 'Raka Erlangga';
+  final String role = 'Mahasiswa Teknik Informatika';
 
   final List<String> experiences = [
-    'Senior Backend Engineer - EDC Bank DKI',
-    'Backend & System Architect - Secure Payment EDC',
-    'Lead Developer - Aplikasi Sekurindo',
-    'Backend Engineer - Pengembangan Sistem E-money', 
+    'IT Support - AirAsia',
   ];
 
   @override
