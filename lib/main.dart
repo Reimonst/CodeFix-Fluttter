@@ -1,3 +1,4 @@
+import 'data/user_data.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -6,13 +7,6 @@ void main() {
 
 class MainApp extends StatelessWidget {
   MainApp({super.key});
-
-  final String userName = 'Raka Erlangga';
-  final String role = 'Mahasiswa Teknik Informatika';
-
-  final List<String> experiences = [
-    'IT Support - AirAsia',
-  ];
 
   @override
   Widget build(BuildContext context) {
